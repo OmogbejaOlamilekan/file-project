@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(59, 15, 218) color(70, 10, 20);
+}
+h1{
+    color: rgb(74, 26, 247);
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    color: rgb(24, 8, 252);
+background-color: rgb(206, 29, 29);
+border: solid;
+}
+
+button{
+    border: 2px solid rgb(177, 18, 39);
+    padding: 40px;
+    margin: 55px;
+     }
+
+     table, th, td {
+        border: solid 1px rgb(38, 14, 179);
+        border-collapse: collapse;
+     }
+     
+

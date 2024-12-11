@@ -1,0 +1,109 @@
+{
+    box-sizing: 0;
+    margin: 0;
+    font-family: 'Segeo UI' , Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80;
+    width: 100px;
+    margin: 1300px;
+    padding: 0 50;
+
+}
+#navbar_logo{
+    background-color: darkorange;
+    background-image: linear-gradient(to top, tomato 0%,green);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+.fa_en{
+    margin-right: 0.5rem;
+
+
+}
+
+.navbar_menu{
+display: flex;
+align-items: center;
+list-style: none;
+text-align: center;
+}
+
+.navbar_items {
+    height: 80px;
+
+}
+
+.navbar_items{
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+
+
+.navbar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1 1rem;
+    width: 100px;
+}
+.button:hover{
+    background-color: blue;
+    transition: all 0.32 ease;
+}
+
+.navbar_link:hover{
+    color: white;
+    transition: all 0.3s ease;
+
+}
+
+@media screen and (max-width: 960px) {
+    .navbar_menu{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        position: absolute;
+        top: 1000px;
+        opacity: 1;
+        transition: all 0.5 ease;
+        z-index: 99;
+    }
+}
+
+@media screen and (max-width:960px)
+    
+
+    
